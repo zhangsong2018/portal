@@ -1,0 +1,73 @@
+.pages-tables {
+  -webkit-overflow-scrolling: touch; // ios滑动顺畅
+position: relative;
+}
+.rolling-table {
+  height: 100%;
+  font-size: 0.28rem;
+  color: #86939a;
+  background-color: #fff;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  top: 0;
+  overflow: hidden;
+}
+.rows {
+  position: relative;
+  z-index: 3;
+}
+.cross {
+  position: relative;
+  z-index: 5;
+}
+table td {
+  border: 0px solid #000;
+  font-size: 0.32rem;
+  background: #fff;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.table {
+//   border-collapse: collapse; //去掉重复的border
+color: #86939e;
+  font-size: 0.32rem;
+  /*min-height: 100%;*/
+  text-align: center;
+  border: 0.02rem solid #ccc;
+  width: 90%;
+  margin:  20px auto;
+td {
+  border-bottom: 0.02rem solid #eee;
+  white-space: nowrap;
+  height: 0.86rem;
+  line-height: 0.86rem;
+  padding: 0 0.2rem;
+  border-right: 0.02rem solid #eee;
+}
+th {
+  color: #43484d;
+  //white-space: nowrap;
+  height: 0.74rem;
+  min-width: 50px;
+  //line-height: 0.74rem;
+  line-height: initial;
+  padding: 0.1rem 0.1rem;
+  background-color: #f3f4f6;
+  font-weight: normal;
+  //padding-bottom: 0;
+  //padding-top: 0;
+  border-right: 0.02rem solid #eee;
+  /*border: 0.02rem solid #50bfff;*/
+}
+}
+tr{
+  position: relative;
+  background-color: #fff;
+&:nth-of-type(odd){
+td{
+// background-color: pink;
+}
+}
+}

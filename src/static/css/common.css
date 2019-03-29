@@ -1,0 +1,20 @@
+.elli{
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+.clearfloat:after{
+  display:block;
+  clear:both;
+  content:"";
+  visibility:hidden;
+  height:0
+}
+.clearfloat{
+  zoom: 1
+}
+/*黑色：#282828
+灰色：#666666
+红色：#cf1413
+蓝色： #1c76dc
+*/

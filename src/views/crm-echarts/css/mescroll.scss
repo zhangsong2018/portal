@@ -1,0 +1,49 @@
+
+table td {
+  border: 0px solid #999;
+  font-size: 0.32rem;
+  background: #fff;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.table {
+  border-collapse: collapse; //去掉重复的border
+  color: #86939e;
+  font-size: 0.32rem;
+  /*min-height: 100%;*/
+  text-align: center;
+  border: 0.02rem solid #999;
+  width: 90%;
+  margin: 0 auto 20px auto;
+td {
+  border-bottom: 0.02rem solid #999;
+  white-space: nowrap;
+  height: 0.86rem;
+  line-height: 0.86rem;
+  padding: 0 0.2rem;
+  border-right: 0.02rem solid #999;
+  color: #282828;
+}
+th {
+  color: #43484d;
+  //white-space: nowrap;
+  height: 0.74rem;
+  min-width: 50px;
+  line-height: 0.74rem;
+  padding: 0rem 0.1rem;
+  font-weight: normal;
+  border: 0.02rem solid #999;
+  border-collapse: collapse; //去掉重复的border
+  /*border: 0.02rem solid #50bfff;*/
+}
+}
+tr{
+  position: relative;
+  background-color: #fff;
+&:nth-of-type(odd){
+td{
+// background-color: pink;
+}
+}
+}
